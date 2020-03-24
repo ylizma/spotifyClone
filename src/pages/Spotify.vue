@@ -67,8 +67,110 @@
                     </div>
                 </div>
                 
-                <div class="content content-spotify bg-gray-800-spotify flex-1 overflow-y-auto">
-                    
+                <div class="content content-spotify bg-gray-800-spotify flex-1 overflow-y-auto flex flex-col">
+                    <div class="top-bar flex items-center justify-between px-4 py-2">
+                        <div class="flex items-center">
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                width="20" height="20"
+                                viewBox="0 0 172 172"
+                                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#cccccc"><path d="M104.1675,28.4875l-55.04,55.04l-2.365,2.4725l2.365,2.4725l55.04,55.04l4.945,-4.945l-52.5675,-52.5675l52.5675,-52.5675z"></path></g></g></svg>
+                            </button>
+                            <button class="ml-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                width="20" height="20"
+                                viewBox="0 0 172 172"
+                                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#cccccc"><path d="M67.8325,28.4875l-4.945,4.945l52.5675,52.5675l-52.5675,52.5675l4.945,4.945l55.04,-55.04l2.365,-2.4725l-2.365,-2.4725z"></path></g></g></svg>
+                            </button>
+                            <div class="ml-4 relative">
+                                <input class="bg-white text-gray-800 placeholder-gray-800 rounded-full px-3 pl-8 py-1" type="text" name="" id="" placeholder="Search">
+                                <div class="absolute top-0">
+                                    <svg class="fill-current text-gray-800 h-6 pt-1 pl-1  " xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                    width="20" height="25"
+                                    viewBox="0 0 172 172"
+                                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#000000"><path d="M72.24,10.32c-32.26344,0 -58.48,26.21656 -58.48,58.48c0,32.26344 26.21656,58.48 58.48,58.48c12.76563,0 24.56375,-4.11187 34.185,-11.0725l45.2575,45.15l9.675,-9.675l-44.72,-44.8275c8.78813,-10.23937 14.0825,-23.52906 14.0825,-38.055c0,-32.26344 -26.21656,-58.48 -58.48,-58.48zM72.24,17.2c28.54125,0 51.6,23.05875 51.6,51.6c0,28.54125 -23.05875,51.6 -51.6,51.6c-28.54125,0 -51.6,-23.05875 -51.6,-51.6c0,-28.54125 23.05875,-51.6 51.6,-51.6z"></path></g></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <button>
+                                <svg class="fill-current text-gray-400 hover:text-white w-6 h-6" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                width="20" height="20"
+                                viewBox="0 0 172 172"
+                                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#cccccc"><path d="M86,0c-21.83594,0 -39.69231,13.90265 -39.69231,39.69231c0,17.26202 8.03666,35.14423 19.84615,45.06731v9.09615c0,3.97957 -2.6875,7.39063 -5.99519,8.0625c-25.78966,7.93329 -46.92788,25.01442 -46.92788,34.9375v11.99038c0,12.5589 32.40505,23.15385 72.76923,23.15385c40.36419,0 72.76923,-10.59495 72.76923,-23.15385v-11.99038c0,-9.2512 -20.46635,-27.00421 -46.92788,-34.9375c-3.30769,-0.67187 -5.99519,-4.75481 -5.99519,-8.0625v-9.09615c11.80949,-9.92308 19.84615,-27.80529 19.84615,-45.06731c0,-25.78966 -17.85637,-39.69231 -39.69231,-39.69231z"></path></g></g></svg>
+                            </button>
+                            <a href="" class="ml-2 hover:underline hover:text-white">th3-notorious</a>
+                            <button class="ml-4">
+                                <svg class="fill-current text-gray-400 hover:text-white w-6 h-6" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                width="20" height="20"
+                                viewBox="0 0 172 172"
+                                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M150.5,79.6145v0c0,-9.5245 -10.61383,-15.20767 -18.54017,-9.92583l-45.95983,30.64467l-45.95983,-30.6375c-7.92633,-5.28183 -18.54017,0.39417 -18.54017,9.91867v0c0,3.98467 1.99233,7.71133 5.3105,9.92583l51.24167,34.15633c4.816,3.21067 11.08683,3.21067 15.90283,0l51.24167,-34.15633c3.311,-2.2145 5.30333,-5.934 5.30333,-9.92583z"></path></g></g></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="content overflow-y-auto">
+                        <div class="container mx-auto">
+                            <h2 class="mt-24 text-5xl font-semibold text-white">Home</h2>
+                            <h3 class="font-semibold text-xl border-gray-900 pb-2">Recently Played</h3>
+                            <div class="flex items-center mt-4 -mx-4">
+                                
+                                <div class="w-1/5 px-4">
+                                    <div>
+                                      <a href="#"><img src="../assets/album01.jpg" alt="album cover"></a>
+                                    </div>
+                                    <div>
+                                      <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic Pop Covers 2019</a>
+                                      <div class="text-gray-500 mt-2">Amazing Acoustic Covers updated every week.</div>
+                                      <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                                    </div>
+                                  </div>
+                  
+                                  <div class="w-1/5 px-4">
+                                    <div>
+                                      <a href="#"><img src="../assets/album01.jpg" alt="album cover"></a>
+                                    </div>
+                                    <div>
+                                      <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic Christmas</a>
+                                      <div class="text-gray-500 mt-2">Amazing Acoustic Covers updated every week.</div>
+                                      <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                                    </div>
+                                  </div>
+                  
+                                  <div class="w-1/5 px-4">
+                                    <div>
+                                      <a href="#"><img src="../assets/album01.jpg" alt="album cover"></a>
+                                    </div>
+                                    <div>
+                                      <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic Pop Covers 2019</a>
+                                      <div class="text-gray-500 mt-2">Amazing Acoustic Covers updated every week.</div>
+                                      <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                                    </div>
+                                  </div>
+                  
+                                  <div class="w-1/5 px-4">
+                                    <div>
+                                      <a href="#"><img src="../assets/album01.jpg" alt="album cover"></a>
+                                    </div>
+                                    <div>
+                                      <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic Pop Covers 2019</a>
+                                      <div class="text-gray-500 mt-2">Amazing Acoustic Covers updated every week.</div>
+                                      <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                                    </div>
+                                  </div>
+                  
+                                  <div class="w-1/5 px-4">
+                                    <div>
+                                      <a href="#"><img src="../assets/album01.jpg" alt="album cover"></a>
+                                    </div>
+                                    <div>
+                                      <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic Pop Covers 2019</a>
+                                      <div class="text-gray-500 mt-2">Amazing Acoustic Covers updated every week.</div>
+                                      <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
